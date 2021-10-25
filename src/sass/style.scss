@@ -1,0 +1,66 @@
+body {
+  background: rgb(250, 247, 247);
+  background-image: url('../images/45degreee_fabric.png');
+  background-repeat: repeat;
+}
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.search-container {
+  text-align: center;
+  margin-top: 70px;
+}
+.title {
+  font-weight: bold;
+  font-size: 26px;
+  color: rgb(11, 19, 122);
+  margin-bottom: 12px;
+}
+.search-country-form {
+  margin-top: 30px;
+}
+.country-name-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  color: rgb(11, 19, 122);
+}
+.country-input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-left: 20px;
+  font-size: small;
+  color: rgb(11, 19, 122);
+}
+
+.country-name {
+  font-weight: bold;
+  color: rgb(11, 19, 122);
+}
+.country-data-caption {
+  font-weight: bold;
+  color: rgb(11, 19, 122);
+}
+.caption-wrapper {
+  font-weight: normal;
+}
+.list-group-item {
+  color: rgb(11, 19, 122);
+}
